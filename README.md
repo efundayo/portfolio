@@ -3,6 +3,9 @@
 		  
 			border: 0 none;
 			box-shadow: none;
-
-lines 316 - 318
+		  	display: inline-block;
+    		  	width: 250px;
+    		  	height: 180px;
+    		  	background-position: center center;
+lines 316 - 322
 css/bootstrap-theme.css

@@ -1,7 +1,7 @@
 
        
 $(document).ready(function() {
-    $(".contentPost").delay(7000).fadeIn(10000);
+    $(".contentPost").delay(4000).fadeIn(5000);
 });
  
 
@@ -9,33 +9,34 @@ $(document).ready(function() {
 
        
 $(document).ready(function() {
-    $(".contentPost1").delay(9000).fadeIn(10000);
+    $(".contentPost1").delay(5000).fadeIn(5000);
 });
  
 
        
 $(document).ready(function() {
-    $(".contentPost2").delay(11000).fadeIn(10000);
+    $(".contentPost2").delay(6000).fadeIn(5000);
 });
  
 
  
 $(document).ready(function() {
-    $(".contentPost3").delay(13000).fadeIn(10000);
+    $(".contentPost3").delay(7000).fadeIn(5000);
 });
  
 
 
        
 $(document).ready(function() {
-    $(".contentPost4").delay(15000).fadeIn(10000);
+    $(".contentPost4").delay(8000).fadeIn(5000);
 });
  
 
 
 $(document).ready(function() {
-    $(".contentPost5").delay(17000).fadeIn(1000);
+    $(".contentPost5").delay(9000).fadeIn(5000);
 });
+
 
 
 
