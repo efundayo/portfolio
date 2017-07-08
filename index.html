@@ -10,6 +10,8 @@
 <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js" ></script>
+<script src="js/style.js" ></script>
+
 
 <body>
 
@@ -30,11 +32,6 @@
 </p>
 </div>
 
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost").delay(7000).fadeIn(10000);
-});
-</script>
 
       <!--input id = "hide" type = "button" value = "Hide" />   
       <input id = "show" type = "button" value = "Show" /-->
@@ -45,67 +42,62 @@ $(document).ready(function() {
 	  
         <div class="col-md-3">
 <div class="contentPost1">                   <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p -->
-		  <div class="thumbnail">
-		  		  <img src="images/programming_methodogy.jpg" style="width:80%; height:150px">
+		  <div class="thumbnail hovereffect">
+		  		   <img class="img-responsive"  src="images/programming_methodogy.jpg" style="width:80%; height:150px">
+        <div class="overlay">
+           <a class="info" href="#">Methodology</a>
+        </div>
                 <p><h4 style="text-align:center"  id="methodology">Programming Methodology</h4></p>					
 			</div>
 	</div>
         </div>
 
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost1").delay(9000).fadeIn(10000);
-});
-</script>
 		
         <div class="col-md-3">
 <div class="contentPost2">  
                   <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p-->
-		  <div class="thumbnail">
-				  <img src="images/algorithm.png" style="width:80%; height:150px">
+		  <div class="thumbnail hovereffect">
+				   <img class="img-responsive"  src="images/algorithm.png" style="width:80%; height:150px">
+        <div class="overlay">
+           <a class="info" href="#">Algorithms & Data Structures</a>
+        </div>
            <p> <h4 style="text-align:center">Algorithms & Data Structures </h4></p>
 		   </div>
 </div>
        </div>
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost2").delay(11000).fadeIn(10000);
-});
-</script>
+
 	   
        <div class="col-md-3">
 <div class="contentPost3">  
                  <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
-		  <div class="thumbnail">
-				<img src="images/full_stack.jpg" style="width:80%; height:150px">
+		  <div class="thumbnail hovereffect">
+				 <img class="img-responsive"  src="images/full_stack.jpg" style="width:80%; height:150px">
+        <div class="overlay">
+           <a class="info" href="#">Full Stack Web Development</a>
+        </div>
            <p>  <h4 style="text-align:center">Full Stack Web Development</h4></p>
 		   </div>
         </div>
        </div>
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost3").delay(13000).fadeIn(10000);
-});
-</script>
+      
 	       <div class="col-md-3">
 <div class="contentPost4">  
                    <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
-		   <div class="thumbnail" >
-		   	  <img src="images/android_development.png" id="android" style="width:80%; height:150px">
+		   <div class="thumbnail hovereffect">
+		   	   <img class="img-responsive"  src="images/android_development.png" id="android" style="width:80%; height:150px">
+        <div class="overlay">
+           <a class="info" href="#">Android Development</a>
+        </div>
            <p><h4 style="text-align:center">Android Development</h4></p>
 		   </div>
 </div>
         </div>
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost4").delay(15000).fadeIn(10000);
-});
-</script>
+
 	   <!--div class="col-md-3">
           <h4>Android Development</h4>
           <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p->
-		   <div class="thumbnail" >
-		   	  <img src="images/android_development.png" style="width:80%; height:150px">
+		   <div class="thumbnail hovereffect">
+		   	   <img class="img-responsive"  src="images/android_development.png" style="width:80%; height:150px">
            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 		   </div>
         </div-->
@@ -116,17 +108,16 @@ $(document).ready(function() {
 <div class="contentPost5">  
         <div class="col-md-4 col-md-offset-4">
                     <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
-		   <div class="thumbnail" >
-				  <img src="images/software_studio.jpg" style="width:80%; height:150px">
+		   <div class="thumbnail hovereffect">
+				   <img class="img-responsive"  src="images/software_studio.jpg" style="width:80%; height:150px">
+        <div class="overlay">
+           <a class="info" href="#">Software Engineering Studioy</a>
+        </div>
            <p><h4 style="text-align:center">Software Engineering Studio</h4></p>
 		   </div>
         </div>
       </div>
-      <script type = "text/javascript" language = "javascript">
-$(document).ready(function() {
-    $(".contentPost5").delay(17000).fadeIn(1000);
-});
-</script>
+      
 </div>
 
       <hr>
