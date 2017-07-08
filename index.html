@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/bootstrap-theme.css" >
 <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
 <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js" ></script>
 <body>
 
@@ -77,9 +77,18 @@
 		   </div>
         </div>
       </div>
+
+
+      <hr>
+
+      <footer>
+        <p style="text-align:center;"> 
+Copyright &copy; <a class="text-info" id="spanYear">  </a> Sweskills Academy | Academy@sweskills.com | All Rights Reserved.</p>
+      </footer>
 </div>
-
-
+<script language="JavaScript">
+$('#spanYear').html(new Date().getFullYear());
+</script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
