@@ -316,6 +316,10 @@ fieldset[disabled] .btn-danger.active {
 /*Following lines added by Mosud to remove thumbnail border and shadow*/
 		  border: 0 none;
 		  box-shadow: none;
+		  display: inline-block;
+    		  width: 250px;
+    		  height: 180px;
+    		  background-position: center center;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
