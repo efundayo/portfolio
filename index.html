@@ -9,10 +9,35 @@
 <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js" ></script>
+
+<style>
+.contentPost { display:none;}
+</style>
+
+
+<style>
+.contentPost1 { display:none;}
+</style>
+
+<style>
+.contentPost2 { display:none;}
+</style>
+
+<style>
+.contentPost3 { display:none;}
+</style>
+
+<style>
+.contentPost4 { display:none;}
+</style>
+
+<style>
+.contentPost5 { display:none;}
+</style>
+
 <body>
 
-
-<div class="container-fluid">
+<div class="container-fluid col-md-10 col-md-offset-1 " style="font-family: 'Zilla Slab', serif;">
 <div class="jumbotron">
       <div class="container">
         <h1>Shout Out to the World!</h1>
@@ -21,41 +46,85 @@
       </div>
     </div>
 
-    <div class="container" style="font-family: 'Zilla Slab', serif;">
+
+<div class="contentPost">
+ <p class="text-success">
+  <!--button type="button" class="close" data-dismiss="alert">&times;</button-->
+  <strong>Train To Become A World-class  Software Engineer @ <a href="#" class="alert-link"> SWESkills Academy!</a></strong>
+</p>
+</div>
+
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost").delay(7000).fadeIn(10000);
+});
+</script>
+
+      <!--input id = "hide" type = "button" value = "Hide" />   
+      <input id = "show" type = "button" value = "Show" /-->
+
+    <!--div class="container" -->
       <!-- First Row -->
-      <div class="row">
+      <div class="row" id="row">
 	  
         <div class="col-md-3">
-                   <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p -->
+<div class="contentPost1">                   <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p -->
 		  <div class="thumbnail">
 		  		  <img src="images/programming_methodogy.jpg" style="width:80%; height:150px">
-                <p><h4 style="text-align:center">Programming Methodology</h4></p>					
+                <p><h4 style="text-align:center"  id="methodology">Programming Methodology</h4></p>					
 			</div>
+	</div>
         </div>
+
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost1").delay(9000).fadeIn(10000);
+});
+</script>
 		
         <div class="col-md-3">
+<div class="contentPost2">  
                   <!--p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p-->
 		  <div class="thumbnail">
 				  <img src="images/algorithm.png" style="width:80%; height:150px">
            <p> <h4 style="text-align:center">Algorithms & Data Structures </h4></p>
 		   </div>
+</div>
        </div>
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost2").delay(11000).fadeIn(10000);
+});
+</script>
 	   
        <div class="col-md-3">
+<div class="contentPost3">  
                  <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
 		  <div class="thumbnail">
 				<img src="images/full_stack.jpg" style="width:80%; height:150px">
            <p>  <h4 style="text-align:center">Full Stack Web Development</h4></p>
 		   </div>
         </div>
-       
+       </div>
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost3").delay(13000).fadeIn(10000);
+});
+</script>
 	       <div class="col-md-3">
+<div class="contentPost4">  
                    <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
 		   <div class="thumbnail" >
-		   	  <img src="images/android_development.png" style="width:80%; height:150px">
+		   	  <img src="images/android_development.png" id="android" style="width:80%; height:150px">
            <p><h4 style="text-align:center">Android Development</h4></p>
 		   </div>
+</div>
         </div>
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost4").delay(15000).fadeIn(10000);
+});
+</script>
 	   <!--div class="col-md-3">
           <h4>Android Development</h4>
           <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p->
@@ -68,7 +137,7 @@
 		</div><!-- End First Row -->
 		
 	   <div class="row"> <!-- The Second Row --->
-
+<div class="contentPost5">  
         <div class="col-md-4 col-md-offset-4">
                     <!--p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p-->
 		   <div class="thumbnail" >
@@ -77,7 +146,12 @@
 		   </div>
         </div>
       </div>
-
+      <script type = "text/javascript" language = "javascript">
+$(document).ready(function() {
+    $(".contentPost5").delay(17000).fadeIn(1000);
+});
+</script>
+</div>
 
       <hr>
 
