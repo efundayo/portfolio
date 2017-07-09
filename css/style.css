@@ -1,9 +1,9 @@
  
-.contentPost { 
+.contentPost, .contentPost1, .contentPost2, .contentPost3, .contentPost4, .contentPost5 { 
 	display:none;
 }
  
-.contentPost1 { 
+/*.contentPost1 { 
 	display:none;
 }
  
@@ -22,7 +22,7 @@ display:none;
 .contentPost5 { 
 display:none;
 }
-
+*/
 
 .hovereffect {
   width: 100%;
